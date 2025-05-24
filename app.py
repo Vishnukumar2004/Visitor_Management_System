@@ -85,16 +85,32 @@ def send_message():
     message = f"""
 Hello {student_name},
 
-Welcome to Vikrant Institute of Technology and Management (VITM), Indore!*
 
-Welcome to visit our campus. At VITM, we are committed to nurturing innovative minds and fostering excellence in education. 
-Our state-of-the-art facilities, experienced faculty, and vibrant campus life make us a premier destination for aspiring professionals.
+Welcome to Vikrant Group Of Institutions, Indore.
 
-Explore more about our college on our official website: http://vitm.edu.in
+Thank you very much for visiting the campus.
 
-Stay updated and connected by following our official Instagram page: [vikrant.indore](https://www.instagram.com/vikrant.indore)
+Vikrant Group has been into existence since more then 20 years now, with more than 10,000/- Alumni working in India and abroad. 
 
-We hope your visit is both enjoyable and inspiring. Feel free to reach out if you need any assistance!"""
+VGI is running UG & PG courses in following institutes:- 
+
+Engineering
+Management 
+Nursing 
+Pharmacy
+Law
+
+All courses are approved by UGC, AICTE, PCI, BCI and MPNRC and affiliated to state Govt. Universities.
+
+For various Discount and Scholarship Schemes click on the link below:- 
+https://www.vitm.edu.in/scholarship.html
+
+Stay updated and connected by following our official Instagram page: [vikrant.indore]
+https://www.instagram.com/vikrant.indore
+
+We hope your visit is both enjoyable and inspiring. Feel free to reach out for more details.
+
+Thanks"""
 
     result = send_whatsapp_message(student_number, message)
 
