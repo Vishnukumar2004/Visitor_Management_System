@@ -8,8 +8,8 @@ import os
 app = Flask(__name__)
 
 # UltraMsg API credentials
-INSTANCE_KEY = "instance101363"  # Replace with your UltraMsg instance key
-TOKEN = "m2ck8a6cfg7bnhmz"       # Replace with your UltraMsg API token
+INSTANCE_KEY = "xyz"  # Replace with your UltraMsg instance key
+TOKEN = "xyz"       # Replace with your UltraMsg API token
 API_URL = f"https://api.ultramsg.com/{INSTANCE_KEY}/messages/chat"
 
 # Excel file path
